@@ -1,0 +1,82 @@
+[
+  {
+    "code": "PID",
+    "title": "Patient identification",
+    "description": "Information about you, such as your name, address, and contact details."
+  },
+  {
+    "code": "PD1",
+    "title": "Patient additional demographic",
+    "description": "Additional information about you, such as your race, ethnicity, and preferred language."
+  },
+  {
+    "code": "NK1",
+    "title": "Next of kin",
+    "description": "Information about your next of kin, such as their name and contact details."
+  },
+  {
+    "code": "PV1",
+    "title": "Patient visit",
+    "description": "Information about your current hospital visit, such as admission date and room number."
+  },
+  {
+    "code": "PV2",
+    "title": "Patient visit - additional",
+    "description": "Additional information about your current hospital visit, such as your referring doctor and insurance details."
+  },
+  {
+    "code": "OBX",
+    "title": "Observation/Result",
+    "description": "Results of medical tests, such as blood pressure and glucose levels."
+  },
+  {
+    "code": "AL1",
+    "title": "Allergy information",
+    "description": "Information about any allergies you have, such as food or medication allergies."
+  },
+  {
+    "code": "DG1",
+    "title": "Diagnosis",
+    "description": "Information about your diagnosis, including the date and any relevant medical codes."
+  },
+  {
+    "code": "DRG",
+    "title": "Diagnosis related group",
+    "description": "Information about the group of diagnoses you fall into, used for billing purposes."
+  },
+  {
+    "code": "GT1",
+    "title": "Guarantor",
+    "description": "Information about the person financially responsible for your medical bills, if not yourself."
+  },
+  {
+    "code": "IN1",
+    "title": "Insurance",
+    "description": "Information about your health insurance provider and policy details."
+  },
+  {
+    "code": "IN2",
+    "title": "Insurance additional information",
+    "description": "Additional information about your health insurance policy, such as group or employer details."
+  },
+  {
+    "code": "IN3",
+    "title": "Insurance certification",
+    "description": "Information about the certification of your health insurance policy."
+  },
+  {
+    "code": "NTE",
+    "title": "Notes and comments",
+    "description": "Additional notes or comments about your medical history, treatment, or other information."
+  },
+  {
+    "code": "PR1",
+    "title": "Procedures",
+    "description": "Information about any medical procedures you have undergone, including the date and any relevant medical codes."
+  },
+  {
+    "code": "ROL",
+    "title": "Role",
+    "description": "Information about your role or relationship to the patient, such as a caregiver or legal guardian."
+  }
+]

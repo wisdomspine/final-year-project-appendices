@@ -1,0 +1,17 @@
+[
+  { "code": "PRD", "description": "Provider Data" },
+  { "code": "AFF", "description": "Professional Affiliation" },
+  { "code": "LAN", "description": "Language Detail" },
+  { "code": "EDU", "description": "Educational Detail" },
+  { "code": "CER", "description": "Certificate Detail" },
+  { "code": "ORG", "description": "Practicing Organization" },
+  { "code": "LOC", "description": "Practicing Location" },
+  { "code": "DSP", "description": "Display Data" },
+  { "code": "GT1", "description": "Guarantor" },
+  { "code": "NK1", "description": "Next of Kin" },
+  { "code": "VAR", "description": "Variability" },
+  { "code": "ROL", "description": "Role" },
+  { "code": "STF", "description": "Staff Identification" },
+  { "code": "SCH", "description": "Scheduling Detail" },
+  { "code": "ABS", "description": "Abstract" }
+]
