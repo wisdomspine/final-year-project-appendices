@@ -1,0 +1,701 @@
+{
+  "ABS": {
+    "title": "Abstract",
+    "description": "Patient demographic and visit information not included in other segments"
+  },
+  "ACC": {
+    "title": "Accident",
+    "description": "Information about a patient's accident or incident"
+  },
+  "ADD": {
+    "title": "Addendum",
+    "description": "Additional information added to a previously sent message"
+  },
+  "ADJ": {
+    "title": "Adjustment",
+    "description": "Adjustment to charges, credits, and other financial aspects of healthcare"
+  },
+  "AFF": {
+    "title": "Professional Affiliation",
+    "description": "Provider professional association information"
+  },
+  "AIG": {
+    "title": "Appointment Information - General Resource",
+    "description": "Appointment information shared among systems and applications"
+  },
+  "AIL": {
+    "title": "Appointment Information - Location Resource",
+    "description": "Appointment location-specific information shared among systems and applications"
+  },
+  "AIP": {
+    "title": "Appointment Information - Personnel Resource",
+    "description": "Appointment personnel-specific information shared among systems and applications"
+  },
+  "AIS": {
+    "title": "Appointment Information - Service Resource",
+    "description": "Appointment service-specific information shared among systems and applications"
+  },
+  "AL1": {
+    "title": "Patient Allergy Information",
+    "description": "Information about a patient's allergies"
+  },
+  "APR": {
+    "title": "Appointment Preferences",
+    "description": "Appointment preferences of a patient or provider"
+  },
+  "ARQ": {
+    "title": "Appointment Request",
+    "description": "Request for scheduling an appointment"
+  },
+  "ARV": {
+    "title": "Appointment Result",
+    "description": "Results of an appointment, including wait times and visit duration"
+  },
+  "AUT": {
+    "title": "Authorization Information",
+    "description": "Authorization information for healthcare services or procedures"
+  },
+  "BHS": {
+    "title": "Batch Header",
+    "description": "Header segment for a batch of messages"
+  },
+  "BLC": {
+    "title": "Blood Code",
+    "description": "Blood product code information"
+  },
+  "BLG": {
+    "title": "Billing",
+    "description": "Information related to billing for healthcare services"
+  },
+  "BPO": {
+    "title": "Blood Product Order",
+    "description": "Order for blood products and related information"
+  },
+  "BPX": {
+    "title": "Blood Product Dispense Status",
+    "description": "Status information for dispensed blood products"
+  },
+  "BTS": {
+    "title": "Batch Trailer",
+    "description": "Trailer segment for a batch of messages"
+  },
+  "BTX": {
+    "title": "Blood Product Transfusion/Disposition",
+    "description": "Transfusion or disposition of blood product information"
+  },
+  "BUI": {
+    "title": "Blood Unit Information",
+    "description": "Blood unit information including donor and product details"
+  },
+  "CDM": {
+    "title": "Charge Description Master",
+    "description": "Charge description information for healthcare services"
+  },
+  "CDO": {
+    "title": "Clinical Study Phase/Observation",
+    "description": "Clinical study phase or observation information"
+  },
+  "CER": {
+    "title": "Certificate Detail",
+    "description": "Details about a certificate used for authentication or encryption"
+  },
+  "CM0": {
+    "title": "Clinical Study Phase Master",
+    "description": "Clinical trial phase definitions."
+  },
+  "CM1": {
+    "title": "Clinical Study Phase Schedule",
+    "description": "Clinical trial phase schedule and order."
+  },
+  "CM2": {
+    "title": "Clinical Study Schedule Master",
+    "description": "Master plan for clinical trial activities."
+  },
+  "CNS": {
+    "title": "Clear Notification",
+    "description": "Notify an application to clear data from memory."
+  },
+  "CON": {
+    "title": "Consent Segment",
+    "description": "Patient or subject consent for a procedure or treatment."
+  },
+  "CSP": {
+    "title": "Clinical Study Phase",
+    "description": "Phase of a clinical study."
+  },
+  "CSR": {
+    "title": "Clinical Study Registration",
+    "description": "Registration for a clinical study."
+  },
+  "CSS": {
+    "title": "Clinical Study Data Schedule Segment",
+    "description": "Schedule for clinical study data collection."
+  },
+  "CTD": { "title": "Contact Data", "description": "Contact information." },
+  "CTI": {
+    "title": "Clinical Trial Identification",
+    "description": "Identification for a clinical trial."
+  },
+  "DB1": {
+    "title": "Disability Segment",
+    "description": "Disability information."
+  },
+  "DG1": { "title": "Diagnosis", "description": "Diagnosis information." },
+  "DMI": {
+    "title": "DRG Master File Information",
+    "description": "DRG (Diagnosis Related Group) Master File Information."
+  },
+  "DON": {
+    "title": "Donor Information",
+    "description": "Information about a donor."
+  },
+  "DRG": {
+    "title": "Diagnosis Related Group",
+    "description": "Diagnosis Related Group information."
+  },
+  "DSC": {
+    "title": "Continuation Pointer",
+    "description": "Continuation pointer used in messages with long text fields."
+  },
+  "DSP": {
+    "title": "Display Data",
+    "description": "Display information for a user interface."
+  },
+  "ECD": {
+    "title": "Equipment Command",
+    "description": "Instructions on how to operate equipment"
+  },
+  "ECR": {
+    "title": "Equipment Command Response",
+    "description": "Response to an equipment command message"
+  },
+  "EDU": {
+    "title": "Educational Detail",
+    "description": "Details related to patient education provided"
+  },
+  "EQP": {
+    "title": "Equipment Log Service",
+    "description": "Log of equipment usage and maintenance"
+  },
+  "EQU": {
+    "title": "Equipment Detail",
+    "description": "Details of equipment used for a procedure"
+  },
+  "ERR": {
+    "title": "Error Message",
+    "description": "Report of an error encountered during message processing"
+  },
+  "EVN": {
+    "title": "Event Type",
+    "description": "Information about the occurrence of an event"
+  },
+  "FAC": {
+    "title": "Facility",
+    "description": "Identification and location of a healthcare facility"
+  },
+  "FHS": {
+    "title": "File Header",
+    "description": "Header information for a batch of messages"
+  },
+  "FT1": {
+    "title": "Financial Transaction",
+    "description": "Billing information for healthcare services rendered"
+  },
+  "FTS": {
+    "title": "File Trailer",
+    "description": "Trailer information for a batch of messages"
+  },
+  "GOL": {
+    "title": "Goal Detail",
+    "description": "Details related to patient goals"
+  },
+  "GP1": {
+    "title": "Grouping/Reimbursement - Visit",
+    "description": "Grouping and reimbursement details for a visit"
+  },
+  "GP2": {
+    "title": "Grouping/Reimbursement - Procedures",
+    "description": "Grouping and reimbursement details for procedures"
+  },
+  "GT1": {
+    "title": "Guarantor",
+    "description": "Information about a patient's financial guarantor"
+  },
+  "IAM": {
+    "title": "Patient Adverse Reaction Information",
+    "description": "Contains patient adverse reaction information for allergy and adverse reaction tracking."
+  },
+  "IAR": {
+    "title": "Allergy Reaction",
+    "description": "Information about adverse reactions associated with an allergy in a patient's medical record."
+  },
+  "IIM": {
+    "title": "Inventory Item Master",
+    "description": "Contains information about inventory items, such as description and unit of measure."
+  },
+  "ILT": {
+    "title": "Material Lot",
+    "description": "Contains information about a lot or batch of a material."
+  },
+  "IN1": {
+    "title": "Insurance",
+    "description": "Contains information about a patient's insurance policy or coverage."
+  },
+  "IN2": {
+    "title": "Insurance Additional Information",
+    "description": "Contains additional information about a patient's insurance policy or coverage."
+  },
+  "IN3": {
+    "title": "Insurance Additional Information, Certification",
+    "description": "Contains additional insurance information, including certification and authorization."
+  },
+  "INV": {
+    "title": "Inventory Detail",
+    "description": "Contains detailed information about inventory items, including quantity on hand and expiration date."
+  },
+  "IPC": {
+    "title": "Imaging Procedure Control Segment",
+    "description": "Contains information about imaging procedure control, including scheduled and performed procedures."
+  },
+  "IPR": {
+    "title": "Invoice Processing Results",
+    "description": "Contains information about the results of processing an invoice."
+  },
+  "ISD": {
+    "title": "Interaction Status Detail",
+    "description": "Contains information about the status of an interaction between healthcare providers."
+  },
+  "ITM": {
+    "title": "Material Item",
+    "description": "Contains information about a specific material item."
+  },
+  "IVC": {
+    "title": "Invoice Segment",
+    "description": "Contains information about an invoice or bill."
+  },
+  "IVT": {
+    "title": "Material Location",
+    "description": "Contains information about a specific material location."
+  },
+  "LAN": {
+    "title": "Language Detail",
+    "description": "Contains information about a patient's language preference."
+  },
+  "LCC": {
+    "title": "Location Charge Code",
+    "description": "Contains information about a location's charge codes."
+  },
+  "LCH": {
+    "title": "Location Characteristic",
+    "description": "Contains information about a location's characteristics, such as availability and accessibility."
+  },
+  "LDP": {
+    "title": "Location Department",
+    "description": "Contains information about a location's department, such as description and phone number."
+  },
+  "LOC": {
+    "title": "Location Identification",
+    "description": "Contains information about a location, such as name and address."
+  },
+  "LRL": {
+    "title": "Location Relationship",
+    "description": "Contains information about the relationship between two locations."
+  },
+  "MFA": {
+    "title": "Master File Acknowledgment",
+    "description": "Contains acknowledgment information about a master file update."
+  },
+  "MFE": {
+    "title": "Master File Entry",
+    "description": "Contains information about a master file entry, such as a patient or practitioner."
+  },
+  "MFI": {
+    "title": "Master File Identification",
+    "description": "Contains identification information about a master file."
+  },
+  "MRG": {
+    "title": "Merge Patient Information",
+    "description": "Merge multiple patient registrations and demographics data into a single registration."
+  },
+  "MSA": {
+    "title": "Message Acknowledgment",
+    "description": "Defines the acknowledgment code, message control ID, and text message for a message."
+  },
+  "MSH": {
+    "title": "Message Header",
+    "description": "Contains the message header information such as sending/receiving application and message type."
+  },
+  "NCK": {
+    "title": "System Clock",
+    "description": "Specifies the date and time used by the system."
+  },
+  "NDS": {
+    "title": "Notification Detail",
+    "description": "Contains detailed information about a notification or alert message."
+  },
+  "NK1": {
+    "title": "Next of Kin / Associated Parties",
+    "description": "Contains information about a patient's next of kin or other associated parties."
+  },
+  "NPU": {
+    "title": "Bed Status Update",
+    "description": "Indicates a change in the status of a bed or other inpatient location."
+  },
+  "NSC": {
+    "title": "Application Status Change",
+    "description": "Indicates a change in the status of an HL7 application or system."
+  },
+  "NST": {
+    "title": "Application Control Level Statistics",
+    "description": "Contains statistical information about an HL7 application or system."
+  },
+  "NTE": {
+    "title": "Notes and Comments",
+    "description": "Contains free text notes or comments related to a particular segment or field."
+  },
+  "OBR": {
+    "title": "Observation Request",
+    "description": "Contains information about a request for a clinical observation or test."
+  },
+  "OBX": {
+    "title": "Observation/Result",
+    "description": "Contains observation or test results for a patient or specimen."
+  },
+  "ODS": {
+    "title": "Dietary Orders, Supplements, and Preferences",
+    "description": "Contains dietary orders, supplements, and preferences for a patient."
+  },
+  "ODT": {
+    "title": "Diet Tray Instructions",
+    "description": "Contains dietary tray instructions for a patient."
+  },
+  "OM1": {
+    "title": "General Segment for an Observation",
+    "description": "Contains general observation-related information, such as test codes and specimen source."
+  },
+  "OM2": {
+    "title": "Numeric Observation",
+    "description": "Contains numeric observation data for a patient or specimen."
+  },
+  "OM3": {
+    "title": "Categorical Service/Test/Observation",
+    "description": "Contains categorical observation data for a patient or specimen."
+  },
+  "OM4": {
+    "title": "Observations that Require Specimens",
+    "description": "Contains information about specimens required for a particular test or observation."
+  },
+  "OM5": {
+    "title": "Observations that Are Calculated from Other Observations",
+    "description": "Contains information about how calculated observations are derived from other observations."
+  },
+  "OM6": {
+    "title": "Observations that Are Method-Dependent",
+    "description": "Contains information about observations that depend on the method used for the test or observation."
+  },
+  "OM7": {
+    "title": "Observation Batteries",
+    "description": "Contains information about observation batteries, which group related observations together."
+  },
+  "ORC": {
+    "title": "Common Order Segment",
+    "description": "Communicates order placement, filling, and/or cancelation."
+  },
+  "ORG": {
+    "title": "Prder Group Segment",
+    "description": "Groups orders together for easier identification and processing."
+  },
+  "OVR": {
+    "title": "Override Segment",
+    "description": "Indicates modification or override of specified fields and values."
+  },
+  "PAC": {
+    "title": "Packaging Segment",
+    "description": "Specifies details about the packaging of medical products or devices."
+  },
+  "PCE": {
+    "title": "Patient Charge Cost Center Exceptions",
+    "description": "Contains information on patient cost center exceptions to the charge master."
+  },
+  "PCR": {
+    "title": "Possible Causal Relationship",
+    "description": "Describes a possible cause of a clinical event, such as an adverse reaction."
+  },
+  "PD1": {
+    "title": "Patient Additional Demographic",
+    "description": "Contains additional demographic information about the patient."
+  },
+  "PDA": {
+    "title": "Patient Death and Autopsy",
+    "description": "Contains information about the death of a patient and/or results of an autopsy."
+  },
+  "PDC": {
+    "title": "Product Detail Country",
+    "description": "Identifies countries in which a medical product has been registered."
+  },
+  "PEO": {
+    "title": "Product Experience Observation",
+    "description": "Contains information about a patient's experience with a medical product."
+  },
+  "PES": {
+    "title": "Product Experience Sender",
+    "description": "Identifies the sender of a message related to a patient's experience with a medical product."
+  },
+  "PID": {
+    "title": "Patient Identification",
+    "description": "Contains demographic and identifying information about a patient."
+  },
+  "PKG": {
+    "title": "Packaging",
+    "description": "Specifies details about the packaging of a medical product or device."
+  },
+  "PMT": {
+    "title": "Payment Information",
+    "description": "Contains information about a patient's insurance coverage and payment history."
+  },
+  "PR1": {
+    "title": "Procedures",
+    "description": "Contains information about procedures performed on a patient."
+  },
+  "PRA": {
+    "title": "Practitioner Detail",
+    "description": "Contains information about the healthcare provider responsible for the patient's care."
+  },
+  "PRB": {
+    "title": "Problem Details",
+    "description": "Contains information about a patient's health problems or concerns."
+  },
+  "PRC": {
+    "title": "Pricing",
+    "description": "Contains pricing and cost information for a medical product or service."
+  },
+  "PRD": {
+    "title": "Provider Data",
+    "description": "Contains information about a healthcare provider or organization."
+  },
+  "PRT": {
+    "title": "Participation Information",
+    "description": "Contains information about the participation of a healthcare provider or organization."
+  },
+  "PSG": {
+    "title": "Product/Service Group",
+    "description": "Groups medical products or services together for easier identification and processing."
+  },
+  "PSH": {
+    "title": "Product/Service Header",
+    "description": "Contains administrative details about a medical product or service."
+  },
+  "PSL": {
+    "title": "Product/service line item",
+    "description": "Order details for a single product or service"
+  },
+  "PSS": {
+    "title": "Product/service section",
+    "description": "Details for a group of products or services"
+  },
+  "PTH": {
+    "title": "Pathway",
+    "description": "Information about a planned path or course of treatment"
+  },
+  "PV1": {
+    "title": "Patient visit",
+    "description": "Details about a patient's current visit or admission"
+  },
+  "PV2": {
+    "title": "Patient visit - additional information",
+    "description": "Additional patient visit details such as insurance and referral"
+  },
+  "PYE": {
+    "title": "Payee Information",
+    "description": "Information about the person or entity to receive payment"
+  },
+  "QAK": {
+    "title": "Query Acknowledgement",
+    "description": "Acknowledgement of a query message sent to a receiver"
+  },
+  "QID": {
+    "title": "Query Definition",
+    "description": "Definition of a query, including query parameters and values"
+  },
+  "QPD": {
+    "title": "Query Parameter Definition",
+    "description": "Definition of query parameters and values"
+  },
+  "QRI": {
+    "title": "Query Response Instance",
+    "description": "A single instance of a query response"
+  },
+  "RCP": {
+    "title": "Response Control Parameter",
+    "description": "Segment for controlling processing behavior of an associated response message."
+  },
+  "RDF": {
+    "title": "Table Row Definition",
+    "description": "Segment defining structure of a table in tabular reporting format."
+  },
+  "RDT": {
+    "title": "Table Row Data",
+    "description": "Segment for transmitting tabular data in tabular reporting format."
+  },
+  "REL": {
+    "title": "Clinical Relationship",
+    "description": "Segment for describing clinical relationships between orders, results, and observations."
+  },
+  "RF1": {
+    "title": "Referral Information",
+    "description": "Segment for capturing details related to a referral request or transfer."
+  },
+  "RFI": {
+    "title": "Referral Information",
+    "description": "Segment for capturing details related to a referral request or transfer."
+  },
+  "RGS": {
+    "title": "Resource Group",
+    "description": "Segment for grouping resources to be scheduled in a single time slot."
+  },
+  "RMI": {
+    "title": "Risk Management Incident",
+    "description": "Segment for reporting an incident related to patient safety."
+  },
+  "ROL": {
+    "title": "Role",
+    "description": "Segment for defining a person's or organization's role in an order or other activity."
+  },
+  "RQ1": {
+    "title": "Requisition Detail-1",
+    "description": "Segment for additional detail regarding a requisition request for laboratory services."
+  },
+  "RQD": {
+    "title": "Requisition Detail",
+    "description": "Segment for defining the requested laboratory test and associated specimen information."
+  },
+  "RXA": {
+    "title": "Pharmacy/Treatment Administration",
+    "description": "Segment for transmitting medication administration record information."
+  },
+  "RXC": {
+    "title": "Pharmacy/Treatment Component Order",
+    "description": "Segment for describing the order of a medication or treatment component."
+  },
+  "RXD": {
+    "title": "Pharmacy/Treatment Dispense",
+    "description": "Segment for transmitting dispensed medication or treatment information."
+  },
+  "RXE": {
+    "title": "Pharmacy/Treatment Encoded Order",
+    "description": "Segment for encoding an order for medication or treatment."
+  },
+  "RXG": {
+    "title": "Pharmacy/Treatment Give",
+    "description": "Segment for describing the giving of medication or treatment."
+  },
+  "RXO": {
+    "title": "Pharmacy/Treatment Order",
+    "description": "Segment for transmitting an order for medication or treatment."
+  },
+  "RXR": {
+    "title": "Pharmacy/Treatment Route",
+    "description": "Segment for describing the route of administration of a medication or treatment."
+  },
+  "RXV": {
+    "title": "Pharmacy/Treatment Variables",
+    "description": "Segment for specifying values for variables used in a medication or treatment order."
+  },
+  "SAC": {
+    "title": "Specimen Container",
+    "description": "Information about the container holding the specimen."
+  },
+  "SCD": {
+    "title": "Anti-Microbial Cycle Data",
+    "description": "Anti-microbial cycle and phase information related to the specimen."
+  },
+  "SCH": {
+    "title": "Scheduling Activity Information",
+    "description": "Scheduling activity and event timing information."
+  },
+  "SCP": {
+    "title": "Sterilization Configuration",
+    "description": "Sterilization configuration and associated parameters."
+  },
+  "SDD": {
+    "title": "Sterilization Device Data",
+    "description": "Sterilization device-specific parameters and data."
+  },
+  "SFT": {
+    "title": "Software Segment",
+    "description": "Software identification and version information."
+  },
+  "SGH": {
+    "title": "Segment Group Header",
+    "description": "Segment group identification and control information."
+  },
+  "SGT": {
+    "title": "Segment Group Trailer",
+    "description": "Segment group control information, including message count and checksum."
+  },
+  "SHP": {
+    "title": "Shipment",
+    "description": "Shipment identification, status, and packing information."
+  },
+  "SID": {
+    "title": "Substance Identifier",
+    "description": "Substance identification, strength, and form."
+  },
+  "SLT": {
+    "title": "Sterilization Lot",
+    "description": "Sterilization lot identification and control information."
+  },
+  "SPM": {
+    "title": "Specimen",
+    "description": "Specimen source, collection, and transport information."
+  },
+  "STF": {
+    "title": "Staff Identification",
+    "description": "Staff identification, credentials, and employment information."
+  },
+  "STZ": {
+    "title": "Sterilization Parameter",
+    "description": "Sterilization parameter and value information."
+  },
+
+  "TCC": {
+    "title": "Test Code Configuration",
+    "description": "Test Code Configuration detail."
+  },
+  "TCD": {
+    "title": "Test Code Detail",
+    "description": "Test Code Detail information."
+  },
+  "TQ1": {
+    "title": "Timing/Quantity",
+    "description": "Timing/Quantity information for a medication, observation, or a test."
+  },
+  "TQ2": {
+    "title": "Timing/Quantity Relationship",
+    "description": "Timing/Quantity Relationship between orders or result and their related observations."
+  },
+  "TXA": {
+    "title": "Transcription Document Header",
+    "description": "Transcription Document Header information."
+  },
+  "UAC": {
+    "title": "User Authentication Credential Segment",
+    "description": "User Authentication Credential Segment detail."
+  },
+  "UB1": {
+    "title": "UB-92 Data",
+    "description": "UB-92 Data related to patient's health care insurance claim."
+  },
+  "UB2": {
+    "title": "UB92 Data",
+    "description": "UB92 Data related to patient's health care insurance claim."
+  },
+  "VAR": {
+    "title": "Variance",
+    "description": "Variance information for a specified observation or result."
+  },
+  "VND": {
+    "title": "Vendored",
+    "description": "Vendored item or service information."
+  }
+}
